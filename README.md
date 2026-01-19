@@ -1,4 +1,6 @@
 # Murph - Windows Hardware Identifier Spoofing Driver
+Also known as: Temp HWID Spoofer
+
 
 
 A sophisticated Windows kernel-mode driver designed to obfuscate hardware identifiers across multiple system components including CPU, GPU, storage, network adapters, and BIOS/SMBIOS firmware information.
