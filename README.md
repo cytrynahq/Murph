@@ -14,8 +14,6 @@ The driver implements no permanent hooks or background monitoring. Instead, it p
 This driver may be partially unstable or imperfect. It was one of my first kernel-mode driver projects and was recovered from an old storage device.  
 As a result, some code paths may be outdated, unoptimized, or require refactoring before use in production or research environments.
 
-This project is provided primarily for educational and research purposes.
-
 ## Core Architecture
 
 ### Module Structure
