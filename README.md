@@ -1,5 +1,6 @@
 # Murph - Windows Hardware Identifier Spoofing Driver
 
+
 A sophisticated Windows kernel-mode driver designed to obfuscate hardware identifiers across multiple system components including CPU, GPU, storage, network adapters, and BIOS/SMBIOS firmware information.
 
 ## Project Overview
@@ -7,6 +8,13 @@ A sophisticated Windows kernel-mode driver designed to obfuscate hardware identi
 **Murph** is a kernel-mode device driver (.sys) that executes a comprehensive hardware identification spoofing routine at driver initialization. It modifies and randomizes hardware serial numbers and identifiers to prevent system tracking and identification mechanisms from establishing persistent device fingerprints.
 
 The driver implements no permanent hooks or background monitoring. Instead, it performs targeted modifications to hardware identifiers upon load and optionally supports periodic re-spoofing of identifiers via a timer-based mechanism.
+
+⚠️ **Important Notice**
+
+This driver may be partially unstable or imperfect. It was one of my first kernel-mode driver projects and was recovered from an old storage device.  
+As a result, some code paths may be outdated, unoptimized, or require refactoring before use in production or research environments.
+
+This project is provided primarily for educational and research purposes.
 
 ## Core Architecture
 
