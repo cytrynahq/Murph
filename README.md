@@ -1,5 +1,4 @@
-# Murph - Windows Hardware Identifier Spoofing Driver
-Also known as: Temp HWID Spoofer
+# Murph - HWID Spoofer
 
 
 
