@@ -1,4 +1,4 @@
-# Murph - HWID Spoofer
+# Murph - Kernel Hardware-ID Spoofer
 
 ⚠️ DO NOT use this source without any changes to in-game unbans! IT WILL NOT WORK ⚠️
 
