@@ -1,10 +1,11 @@
 # Murph - HWID Spoofer
 
+⚠️ DO NOT use this source without any changes to in-game unbans! IT WILL NOT WORK ⚠️
+**You can’t sell this as-is or with small edits.**
+**If you didn’t put real work into it, you don’t own it.**
 
 
-A sophisticated Windows kernel-mode driver designed to obfuscate hardware identifiers across multiple system components including CPU, GPU, storage, network adapters, and BIOS/SMBIOS firmware information.
-
-## Project Overview
+## Project Overview (chatgpt)
 
 **Murph** is a kernel-mode device driver (.sys) that executes a comprehensive hardware identification spoofing routine at driver initialization. It modifies and randomizes hardware serial numbers and identifiers to prevent system tracking and identification mechanisms from establishing persistent device fingerprints.
 
